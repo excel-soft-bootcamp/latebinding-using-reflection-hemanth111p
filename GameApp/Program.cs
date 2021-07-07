@@ -57,9 +57,55 @@ namespace GameApp
                      break;
                 case Options.INTERMEDIATE:
                     Console.WriteLine("Intermediate Level");
-                     break;
+                    System.Reflection.Assembly intermediateLevelLib=
+                    System.Reflection.Assembly.LoadFile(@"C:\Users\user\source\repos\excelsoft\Examples\GameApp\bin\Debug\LevelLibs\IntermediateLevelLib.dll");
+                    System.Type intermediateTypeClassRef = intermediateLevelLib.GetType("IntermediateLevelLib.IntermediateLevelType");
+                    
+                    if (intermediateTypeClassRef != null)
+                    {
+                        if (intermediateTypeClassRef.IsClass)
+                        {
+                            
+                            Object objRef = System.Activator.CreateInstance(intermediateTypeClassRef); 
+                            System.Reflection.MethodInfo _methodRef = intermediateTypeClassRef.GetMethod("Start");
+                            if (!_methodRef.IsStatic)
+                            {
+                                //Invoke NonStatic Method
+                                // string Play(string playerName, int earlierPoints){}
+                                //object result=  _methodRef.Invoke(objRef, new object[] {"Tom",20 });
+                                object result = _methodRef.Invoke(objRef, new object[] {"hemanth" });
+                                Console.WriteLine(result.ToString());
+                            }
+
+                        }
+
+                    }
+                    break;
                 case Options.ADVANCED:
                     Console.WriteLine("Advanced Level");
+                    System.Reflection.Assembly advancedLevelLib =
+                    System.Reflection.Assembly.LoadFile(@"C:\Users\user\source\repos\excelsoft\Examples\GameApp\bin\Debug\LevelLibs\AdvancedLevelLib.dll");
+                    System.Type advancedTypeClassRef = advancedLevelLib.GetType("AdvancedLevelLib.AdvancedLevelType");
+
+                    if (advancedTypeClassRef != null)
+                    {
+                        if (advancedTypeClassRef.IsClass)
+                        {
+
+                            Object objRef = System.Activator.CreateInstance(advancedTypeClassRef);
+                            System.Reflection.MethodInfo _methodRef = advancedTypeClassRef.GetMethod("Begin");
+                            if (!_methodRef.IsStatic)
+                            {
+                                //Invoke NonStatic Method
+                                // string Play(string playerName, int earlierPoints){}
+                                //object result=  _methodRef.Invoke(objRef, new object[] {"Tom",20 });
+                                object result = _methodRef.Invoke(objRef, new object[] { "hemanth",5 });
+                                Console.WriteLine(result.ToString());
+                            }
+
+                        }
+
+                    }
                     break;
                 
             }

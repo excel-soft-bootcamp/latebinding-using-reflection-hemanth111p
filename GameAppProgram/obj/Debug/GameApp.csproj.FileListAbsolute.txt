@@ -1,0 +1,7 @@
+C:\Users\hemanth.p\source\repos\example\GameApp\bin\Debug\GameApp.exe.config
+C:\Users\hemanth.p\source\repos\example\GameApp\bin\Debug\GameApp.exe
+C:\Users\hemanth.p\source\repos\example\GameApp\bin\Debug\GameApp.pdb
+C:\Users\hemanth.p\source\repos\example\GameApp\obj\Debug\GameApp.csproj.CoreCompileInputs.cache
+C:\Users\hemanth.p\source\repos\example\GameApp\obj\Debug\GameApp.exe
+C:\Users\hemanth.p\source\repos\example\GameApp\obj\Debug\GameApp.pdb
+C:\Users\hemanth.p\source\repos\example\GameApp\obj\Debug\GameApp.csprojResolveAssemblyReference.cache

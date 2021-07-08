@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameApp
 {
-    //Named Constants
-    //Constant Value is - int
+    
     public enum Options
     {
         BASIC=1,INTERMEDIATE,ADVANCED

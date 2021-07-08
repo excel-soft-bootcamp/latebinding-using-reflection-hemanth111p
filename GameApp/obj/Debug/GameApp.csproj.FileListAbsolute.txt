@@ -10,3 +10,4 @@ C:\Users\hemanth.p\Documents\GitHub\latebinding-using-reflection-hemanth111p\Gam
 C:\Users\hemanth.p\Documents\GitHub\latebinding-using-reflection-hemanth111p\GameApp\obj\Debug\GameApp.csproj.CoreCompileInputs.cache
 C:\Users\hemanth.p\Documents\GitHub\latebinding-using-reflection-hemanth111p\GameApp\obj\Debug\GameApp.exe
 C:\Users\hemanth.p\Documents\GitHub\latebinding-using-reflection-hemanth111p\GameApp\obj\Debug\GameApp.pdb
+C:\Users\hemanth.p\Documents\GitHub\latebinding-using-reflection-hemanth111p\GameApp\obj\Debug\GameApp.csprojResolveAssemblyReference.cache

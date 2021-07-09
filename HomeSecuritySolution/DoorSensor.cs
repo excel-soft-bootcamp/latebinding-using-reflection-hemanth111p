@@ -27,8 +27,8 @@ namespace HomeSecuritySolution
             
         }
         void Notify(){
-        string =message $"{this.status} and Time : {System.DateTime.Now.ToString()}";   
-        OnDoorStatusChanged.Invoke(status);
+        string message =$"{this.status} and Time : {System.DateTime.Now.ToString()}";   
+        OnDoorStatusChanged.Invoke(message);
         }
     }
 }

@@ -19,13 +19,13 @@ namespace BmiCalculationApllication
             do
             {
                 string displayMessage = $"Enter Your Choice {(int)Options.CONSOLEINPUT}->ConsoleInput,{(int)Options.FILEINPUT}->FileInput";
-                Console.WriteLine(displayMessage);
+                ConsoleMessageDisplayLib.ConsoleMessageDisplayType.Display(displayMessage);
                 try
                 {
                     Options _choice = (Options)Int32.Parse(Console.ReadLine());
                     if ((int)_choice < 1 || (int)_choice > 2)
                     {
-                        Console.WriteLine("invalid input");
+                        ConsoleMessageDisplayLib.ConsoleMessageDisplayType.Display("invalid input");
                     }
                     else
                     {
@@ -40,10 +40,11 @@ namespace BmiCalculationApllication
                         }
                         break;
                     }
+                   
                 }
-                catch(FormatException ex)
+                catch(FormatException e)
                 {
-                    Console.WriteLine("choice must be a number");
+                    ConsoleMessageDisplayLib.ConsoleMessageDisplayType.Display("choice must be a number");
 
                 }
                 --repeatableCount;

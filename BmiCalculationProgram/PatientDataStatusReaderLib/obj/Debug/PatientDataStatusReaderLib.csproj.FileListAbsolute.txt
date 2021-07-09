@@ -1,0 +1,7 @@
+C:\Users\hemanth.p\source\repos\example\PatientDataStatusReaderLib\obj\Debug\PatientDataStatusReaderLib.csproj.CoreCompileInputs.cache
+C:\Users\hemanth.p\source\repos\example\PatientDataStatusReaderLib\bin\Debug\PatientDataStatusReaderLib.dll
+C:\Users\hemanth.p\source\repos\example\PatientDataStatusReaderLib\bin\Debug\PatientDataStatusReaderLib.pdb
+C:\Users\hemanth.p\source\repos\example\PatientDataStatusReaderLib\bin\Debug\ModelsLib.dll
+C:\Users\hemanth.p\source\repos\example\PatientDataStatusReaderLib\bin\Debug\ModelsLib.pdb
+C:\Users\hemanth.p\source\repos\example\PatientDataStatusReaderLib\obj\Debug\PatientDataStatusReaderLib.dll
+C:\Users\hemanth.p\source\repos\example\PatientDataStatusReaderLib\obj\Debug\PatientDataStatusReaderLib.pdb

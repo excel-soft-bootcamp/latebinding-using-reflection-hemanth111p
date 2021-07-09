@@ -1,0 +1,7 @@
+C:\Users\hemanth.p\source\repos\example\HomeSecuritySolution\bin\Debug\HomeSecuritySolution.exe.config
+C:\Users\hemanth.p\source\repos\example\HomeSecuritySolution\bin\Debug\HomeSecuritySolution.exe
+C:\Users\hemanth.p\source\repos\example\HomeSecuritySolution\bin\Debug\HomeSecuritySolution.pdb
+C:\Users\hemanth.p\source\repos\example\HomeSecuritySolution\obj\Debug\HomeSecuritySolution.csprojResolveAssemblyReference.cache
+C:\Users\hemanth.p\source\repos\example\HomeSecuritySolution\obj\Debug\HomeSecuritySolution.csproj.CoreCompileInputs.cache
+C:\Users\hemanth.p\source\repos\example\HomeSecuritySolution\obj\Debug\HomeSecuritySolution.exe
+C:\Users\hemanth.p\source\repos\example\HomeSecuritySolution\obj\Debug\HomeSecuritySolution.pdb

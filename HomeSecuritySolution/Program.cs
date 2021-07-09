@@ -12,11 +12,11 @@ namespace HomeSecuritySolution
         {
             
             SecuritySystem _securitySystem = new SecuritySystem();
-            DoorStatus sensor = new DoorStatus(_securitySystem.Notify);
+            DoorStatusHandler doorStatusChangeHandler = new DoorStatusHandler(_securitySystem.Notify);
 
 
             DoorSensor doorSensor = new DoorSensor();
-            doorSensor.StatusChanged += sensor;
+            doorSensor.OnDoorStatusChanged += doorStatusChangeHandler;
             doorSensor.Open();
             doorSensor.Close();
 

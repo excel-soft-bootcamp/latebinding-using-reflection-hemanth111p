@@ -44,11 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdvancedLevelReflection.cs" />
-    <Compile Include="BasicLevelReflection.cs" />
     <Compile Include="CheckConditionType.cs" />
+    <Compile Include="LevelDeclaringType.cs" />
     <Compile Include="ConsoleUserChoice.cs" />
-    <Compile Include="IntermediateLevelReflection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
